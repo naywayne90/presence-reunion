@@ -1,0 +1,83 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                 PRESENCE REUNION - DÉMARRAGE RAPIDE               ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+Bonjour! Votre application est configurée. Voici comment la lancer:
+
+📋 ÉTAPE 1: AUTHENTIFICATION (À FAIRE UNE SEULE FOIS)
+────────────────────────────────────────────────────────────────────
+
+Sur VOTRE terminal (sur votre ordinateur), tapez:
+
+    npx convex login
+
+➜ Cela va ouvrir votre navigateur
+➜ Connectez-vous avec votre compte Convex
+➜ C'est tout! Vous n'aurez plus à le refaire
+
+
+📋 ÉTAPE 2: DÉMARRER L'APPLICATION
+────────────────────────────────────────────────────────────────────
+
+Ouvrez 2 TERMINAUX différents dans ce dossier, puis:
+
+TERMINAL 1 (Convex):
+    npm run convex
+
+TERMINAL 2 (Application):
+    npm run dev
+
+
+OU EN UN SEUL SCRIPT (plus simple):
+    ./start.sh
+
+
+📋 ÉTAPE 3: OUVRIR L'APPLICATION
+────────────────────────────────────────────────────────────────────
+
+Dans votre navigateur, allez sur:
+
+    👉 http://localhost:3000
+
+
+╔═══════════════════════════════════════════════════════════════════╗
+║                         RÉSUMÉ ULTRA SIMPLE                        ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  1. npx convex login (une seule fois)                             ║
+║  2. ./start.sh (à chaque fois que vous voulez lancer l'app)       ║
+║  3. Ouvrez http://localhost:3000 dans votre navigateur            ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+
+❓ PROBLÈMES COURANTS:
+────────────────────────────────────────────────────────────────────
+
+❌ "Cannot prompt for input in non-interactive terminals"
+   ➜ Vous devez exécuter "npx convex login" dans VOTRE terminal
+
+❌ L'application ne charge pas
+   ➜ Vérifiez que les 2 terminaux sont actifs
+   ➜ Attendez 10-15 secondes que Convex démarre complètement
+
+❌ "Module not found"
+   ➜ Exécutez: npm install
+
+
+📚 FICHIERS IMPORTANTS:
+────────────────────────────────────────────────────────────────────
+
+📄 GUIDE_DEMARRAGE.md  → Guide détaillé
+📄 README.md           → Documentation complète
+🔧 start.sh            → Script de démarrage automatique
+🌐 .env.local          → Configuration (déjà fait!)
+
+
+🎯 VOTRE DEPLOYMENT CONVEX:
+────────────────────────────────────────────────────────────────────
+
+Nom: gregarious-gnat-103
+URL: https://gregarious-gnat-103.convex.cloud
+Dashboard: https://dashboard.convex.dev
+
+
+✅ Tout est configuré et prêt à fonctionner!
